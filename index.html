@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <nav class="navbar">
+                <h1 class="logo"><img src="S (1).png" width="70px" height="70px"></h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#my-work">MyWorks</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <li></li> -->
+                </ul>
+            </nav>
+            <div class="name">
+              <h2 style="color: rgb(75, 218, 210);"> Hi, I'm <br>Shachidevi Sanadi,</h2>
+              <h5>Web Developer, <br> From Bangaluru.</h5>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- ----------------------------------about---------------------------- -->
+    <div id="about">
+        <div class="header">
+            <div class="row">
+                <div class="col-1">
+                    <img class="Sha" src="about.jpg" height="450px" width="200px" >
+                </div>
+                <div class="col-2">
+                    <h1 class="heading" style="color: #ffff;">About me</h1>
+                    <p style="font-size: 20px;">Enthusiastic and self-motivated web designer. 
+                        Eager to join  and maintain full-time position that offers professional challenges 
+                        utilizing interpersonal skills and bring my skill in web development,
+                         and visual design to every project that will be received in the future.</p>
+
+                        <div class="tab-titles">
+                            <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                            <div class="tab-links" onclick="opentab('education')">Education</div>
+                            <div class="tab-links" onclick="opentab('training')">Training</div>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML</span><br>Proficiency in creating semantically structured and Responsible website, utilizing modern HTML5 features, and optimizing web page performance.e</li>
+                                <li><span>CSS</span><br>Proficiency in creating responsive layouts, implementing animations, using preprocessors like Sass, and integrating CSS with other web technologies.</li>
+                                <li><span>JAVASCRIPT</span><br>Proficiency in writing complex algorithms, using modern ES6+ features, and implementing asynchronous programming with promises and async/await</li>
+                                <li><span>REACT JS</span><br>Understanding of how react js Works internally and how to identify and fix performance bottlenecks</li>
+                                <li><span>PYTHON</span><br>proficiency in core concepts, data manipulation, and problem-solving
+                                    techniques.</li>
+                                <li><span>SQL</span><br>Structured Query Language</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <div class="abt">
+                                   <li><span>BE in EEE (2017)</span><br>Hirasugar institute of Technology,<br>Nidasoshi.</li>
+                                   <a href="https://hsit.ac.in/"><img src="sjpn.jpg" height="80px" width="150px"></a>
+                                </div>
+                                <li><span>PUC(2013)</span><br>Pre University Collage, <br>Pachchapur</li>
+                                <!-- <a href=""><img src="" alt=""></a> -->
+                                <li><span>SSLC(2011)</span><br>New English Shcool,<br>Gokak</li>
+                                <!-- <li><span>SQL</span><br>Structured Query Language</li> -->
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="training">
+                            <ul>
+                                   <li><span>Besant Technology,Btm Layout</span></li>
+                                   <div class="tra">
+                                   <p style="font-size: 20px;">I completed a comprehensive 6-month training program in 
+                                    Full Stack Python development at Besant Technologies, 
+                                    gaining
+                                    proficiency in core concepts, data manipulation, and problem-solving
+                                    techniques and acquiring valuable hands-on experience and 
+                                    proficiency in the software field.</p>
+                                    <a href="https://www.besanttechnologies.com"><img src="besant.jpg" height="120px" width="150px"></a>
+                                </div>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- ---------------------------------myWork------------------------- -->
+    <div id="my-work">
+        <div class="header">
+            <h1 style="text-align: center;">My Works</h1><br><br>
+           <div class="img">
+              <div class="work">
+                 <img src="weather.jpg" height="300px" width="250px">
+                 <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>In this project I created a React weather app, 
+                        which uses an API from openweathermap to get weather information all over the world. 
+                       You can use locate button to get weather data at your location. 
+                       You can also use search to find the current weather at a city, 
+                       for example London or Paris. The app displays local temperature, 
+                       gives you a brief description and also shows an icon based on the weather. </p>
+                       <a href="https://shachidevi.github.io/weather.github.io">Visit</a>
+                 </div>
+                </div>
+                <div class="work">
+                   <img src="scientific.jpg.png" height="300px" width="250px">
+                   <div class="layer">
+                    <h3>Scientific Calculater</h3>
+                    <p>a scientific calculator is a calculator designed to help you calculate science, 
+                        engineering, and mathematics problems. 
+                        It has way more buttons than your standard calculator.It includes standard mathematical functions, 
+                        as well as special features like "All Cancel," "Cancel."
+                         This project provides users with an efficient and user-friendly calculator. </p>
+                        <a href="https://shachidevi.github.io/scientificCalci.github.io/">Visit</a>
+                   </div>
+                </div>
+                <div class="work">
+                   <img src="watch.jpg.png" height="400px" width="280px">
+                   <div class="layer">
+                    <h3>Digital Watch with Date</h3>
+                    <p>This mini-Project has a features of digital clock  with date display.
+                        The project is designed to be simple with the clock providing an 
+                        accurate display of the current time.</p>
+                        <a href="https://shachidevi.github.io/dateTime.github.io/">Visit</a>
+                   </div>
+                </div>
+                <div class="work">
+                      <img src="element5-digital-645841-unsplash.jpg" height="300px" width="250px">
+                      <div class="layer">
+                        <h3>Registration Form</h3>
+                        <p>In this application, User has to fill up the required information, 
+                            and that information is automatically written into an excel file.
+                        </p>
+                            <a href="https://github.com/Shachidevi/Registration_form.github.io">Visit</a>
+                      </div>
+                </div>
+                <div class="work">
+                 <img src="registration_form.jpg" height="300px" width="250px">
+                 <div class="layer">
+                    <h3>Cafe Management with Billing System</h3>
+                    <p>This application, implemented a user-friendly interface for taking and managing customer orders.
+                        Allowed for order modifications and customizations to cater to customer preferences,
+                        Designed a billing system to generate accurate bills with itemized details.</p>
+                        <a href="https://github.com/Shachidevi/Cafe_Management_System.github.io">Visit</a>
+                 </div>
+                </div>
+                <div class="work">
+                 <img src="otp.jpg.png" height="300px" width="250px">
+                 <div class="layer">
+                    <h3>Otp Generater</h3>
+                    <p>authentication protocols and security measures. 
+                        This project enables us to generate 4 digit otp for 
+                        verification to prevent Unauthorised access.</p>
+                        <a href="https://shachidevi.github.io/otpgen.github.io">Visit</a>
+                 </div>
+                </div>
+           </div>
+        </div>
+    </div>
+    <hr>
+    <div id="contact">
+        <div class="header1">
+            <footer>
+                <div class="cont">
+                    <h1 class="title">Contact Me</h1><br>
+                    <p style="font-size: 23px;"><span style="font-size: 29px;">&#9993;</span>: sachchisanadi@gmail.com</p>
+                    <p style="font-size: 23px;"><span style="font-size: 29px;">&#9990;</span> : +917411339498</p>
+                </div>
+                <div class="link1">
+                    <a href="https://github.com/Shachidevi"><img src="git.png" height="50px" width="50px"></a>
+                    <a href="https://www.linkedin.com/in/shachidevi-sanadi-45b9b4227/"><img src="link2.png" height="50px" width="50px"></a>
+                    <a href="https://www.instagram.com/shachi_p7/"><img src="instagram-white-icon.png" height="50px" width="50px"></a>   
+                </div>
+                <h3 class= "CV"><a href="SHACHIDEVI_S_BE_FULLSTACK_DEVE@.pdf.pdf" download class="btn btn2">Download CV</a></h3>
+            </footer>
+        </div>
+    </div>
+</body>
+<script>
+    let tablinks = document.getElementsByClassName("tab-links")
+    let tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-linl");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+</html>
